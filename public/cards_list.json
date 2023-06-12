@@ -1,0 +1,189 @@
+[
+    {
+      "id": 1,
+      "marca": "Ferrari",
+      "modelo": "F40",
+      "anno": "1987",
+      "img": "ferrari-f40.avif",
+      "bandera": "italia.jpg",
+      "clasificacion": "deportivo"
+    },
+    {
+      "id": 2,
+      "marca": "Mazda",
+      "modelo": "rx7",
+      "anno": "2002",
+      "img": "mazda-rx7.avif",
+      "bandera": "japon.webp",
+      "clasificacion": "deportivo"
+    },
+    {
+      "id": 3,
+      "marca": "Honda",
+      "modelo": "NSX-R",
+      "anno": "1992",
+      "img": "honda-nsxr.avif",
+      "bandera": "japon.webp",
+      "clasificacion": "deportivo"
+    },
+    {
+      "id": 4,
+      "marca": "Mitsubishi",
+      "modelo": "Lancer Evo",
+      "anno": "2003",
+      "img": "mitsubishi-lancer-evo.avif",
+      "bandera": "japon.webp",
+      "clasificacion": "deportivo"
+    },
+    {
+      "id": 5,
+      "marca": "Ford",
+      "modelo": "Mustang EcoBoost",
+      "anno": "2020",
+      "img": "ford-mustang-ecoboost.avif",
+      "bandera": "united-states.webp"
+    },
+    {
+      "id": 6,
+      "marca": "Dodge",
+      "modelo": "Charger SRT Hellcat",
+      "anno": "2015",
+      "img": "dodge-charger-srt-hellcat.avif",
+      "bandera": "united-states.webp"
+    },
+    {
+      "id": 7,
+      "marca": "Toyota",
+      "modelo": "Camry",
+      "anno": "2021",
+      "img": "toyota-camry-2021.avif",
+      "bandera": "japon.webp"
+    },
+    {
+      "id": 8,
+      "marca": "BMW",
+      "modelo": "X5",
+      "anno": "2019",
+      "img": "bmw-x5-2019.avif",
+      "bandera": "alemania.png"
+    },
+    {
+      "id": 9,
+      "marca": "Mercedes-Benz",
+      "modelo": "E-Class",
+      "anno": "2023",
+      "img": "mercedes-benz-e-class-2023.avif",
+      "bandera": "alemania.png"
+    },
+    {
+      "id": 10,
+      "marca": "Honda",
+      "modelo": "Civic",
+      "anno": "2021",
+      "img": "honda-civic-2021.avif",
+      "bandera": "japon.webp",
+      "clasificacion": "deportivo"
+    },
+    {
+      "id": 11,
+      "marca": "Nissan",
+      "modelo": "Sentra",
+      "anno": "2020",
+      "img": "nissan-sentra-2020.avif",
+      "bandera": "japon.webp"
+    },
+    {
+      "id": 12,
+      "marca": "Volkswagen",
+      "modelo": "Golf",
+      "anno": "2018",
+      "img": "volkswagen-golf-2018.avif",
+      "bandera": "alemania.png"
+    },
+    {
+      "id": 13,
+      "marca": "Tesla",
+      "modelo": "Model 3",
+      "anno": "2023",
+      "img": "tesla-model-3-2023.avif",
+      "bandera": "united-states.webp"
+    },
+    {
+      "id": 14,
+      "marca": "Lamborghini",
+      "modelo": "Aventador",
+      "anno": "2022",
+      "img": "lamborghini-aventador-2022.avif",
+      "bandera": "italia.jpg",
+      "clasificacion": "deportivo"
+    },
+    {
+      "id": 15,
+      "marca": "Jaguar",
+      "modelo": "F-Type",
+      "anno": "2020",
+      "img": "jaguar-f-type-2020.avif",
+      "bandera": "reino-unido.jpg",
+      "clasificacion": "deportivo"
+    },
+    {
+      "id": 16,
+      "marca": "Ferrari",
+      "modelo": "488 GTB",
+      "anno": "2019",
+      "img": "ferrari-488-gtb-2019.avif",
+      "bandera": "italia.jpg",
+      "clasificacion": "deportivo"
+    },
+    {
+      "id": 17,
+      "marca": "Maserati",
+      "modelo": "Ghibli",
+      "anno": "2023",
+      "img": "maserati-ghibli-2023.avif",
+      "bandera": "italia.jpg",
+      "clasificacion": "deportivo"
+    },
+    {
+      "id": 18,
+      "marca": "Lexus",
+      "modelo": "RX",
+      "anno": "2022",
+      "img": "lexus-rx-2022.avif",
+      "bandera": "japon.webp"
+    },
+    {
+      "id": 19,
+      "marca": "Subaru",
+      "modelo": "Impreza",
+      "anno": "2021",
+      "img": "suabru-impreza-2021.avif",
+      "bandera": "japon.webp"
+    },
+    {
+      "id": 20,
+      "marca": "Kia",
+      "modelo": "Sorento",
+      "anno": "2020",
+      "img": "kia-sorento-2020.avif",
+      "bandera": "corea.png"
+    },
+    {
+      "id": 21,
+      "marca": "Hyundai",
+      "modelo": "Tucson",
+      "anno": "2019",
+      "img": "hyundai-tucson-2019.avif",
+      "bandera": "corea.png"
+    },
+    {
+      "id": 22,
+      "marca": "Volvo",
+      "modelo": "XC90",
+      "anno": "2023",
+      "img": "volvo-xc90-2023.avif",
+      "bandera": "suecia.png"
+    }
+  
+  ]
+  

@@ -1,0 +1,54 @@
+.content-auth {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  height: 70%;
+}
+
+.img-perfil-menu {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-logout-login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.login, .logout {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login {
+  background: rgb(0, 194, 0);
+  color: white;
+}
+
+.logout {
+  background: red;
+  color: white;
+}
+
+// Pagina del perfil
+.content-main-perfil {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.content-details-perfil {
+  padding: 20px;
+}
+
+.img-perfil {
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}

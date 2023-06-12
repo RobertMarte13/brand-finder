@@ -1,0 +1,389 @@
+/* ? Estilos de las cartas en home y en las busquedas. */
+
+h1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  text-align: center;
+}
+
+.content-preview {
+  width: 100%;
+  text-align: center;
+}
+
+/*Estilos de HomePage*/
+.content-Home {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+
+/*titulos de la pagina*/
+.title, .title-2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.content-portadas {
+  @extend h1;
+}
+
+/*contenido cards*/
+.cards-content-father {
+  width: 100%;
+  @extend h1;
+}
+
+.cards-content {
+  cursor: pointer;
+  margin: 30px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  width: 620px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.content-info-cards {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.img-portada-content {
+  width: 60%;
+  height: 100%;
+}
+
+.title-cards {
+  font-size: 30px;
+  overflow: hidden;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px 20px 0px 20px;
+}
+
+.models-cards {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.img-portadas {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.anno-cards {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.img-banderas-p {
+  text-align: right;
+  width: 50px;
+  height: 35px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* ? Estilos para cardsDetails. */
+.content-details-father {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(199, 199, 199, 0.7);
+}
+
+.content-details {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+}
+
+/*contenedor de la imagen informacion.*/
+.content-img-info {
+  width: 100%;
+  display: flex;
+}
+
+/* Img de cards details */
+.content-img {
+  padding: 20px;
+}
+
+.content-img img {
+  width: 650px;
+  max-height: 500px;  
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*segundo contenedor superior.*/
+.content-info-primary {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+} 
+.content-info-primary img {
+  width: 40px;
+}
+
+.content-info-primary .content-info {
+  display: flex;
+  width: 100%;
+}
+
+.content-info-primary .content-info img {
+  width: 60px;
+  height: 40px;
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+.content-info-primary .content-info .marca-modelo {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+}
+
+/*contenedor de la informacion primaria.*/
+.content-info-primary {
+  width: 70%;
+}
+
+.content-info-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.marca-cards {
+  padding: 0;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.modelo-cards {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.content-btn {
+  display: flex;
+  justify-content: end;
+  width: 20%;
+}
+
+.btn-remove {
+  margin: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+}
+
+/* ? Informacion secundaria */
+.content-info-secundary {
+  background: lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin: 30px;
+  height: 30%;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+.details {
+  color: #242424;
+  padding: 10px;
+}
+
+.details-precie {
+  display: flex;
+  align-items: end;
+  font-size: 30px;
+  height: 50%;
+}
+
+/* Media query */
+@media screen and (max-width: 1480px) {
+  .content-img img {
+    width: 400px;
+  }
+  .content-info-secundary {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .content-img img {
+    width: 300px;
+  }
+
+  .content-info-secundary {
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+    height: 350px;
+    flex-direction: column;
+  }
+
+  .modelo-cards {
+    padding: 10px;
+  }
+
+  .details-precie {
+    padding: 10px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+
+  .content-details {
+    width: 100%;
+    min-height: 100vh;
+    border-radius: 0px;
+    padding: 15px;
+    overflow-y: scroll;
+  }
+
+  .content-img-info {
+    flex-direction: column;
+  }
+
+  .content-img {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .content-img img {
+    width: 600px;
+  }
+
+  .img-portadas {
+    object-fit: contain;
+  }
+
+  .content-info-primary {
+    width: 100%;
+  }
+
+  .content-info-btn {
+    flex-direction: column-reverse;
+  }
+
+  .content-info-primary .content-info .marca-modelo {
+    align-items: center;
+  }
+
+  .content-info-primary .content-info {
+    flex-direction: column;
+  }
+
+  .content-btn {
+    width: 100%;
+  }
+
+  .content-info-primary .content-info img {
+    margin: 0px auto;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  
+  .cards-content {
+    flex-direction: column;
+    height:420px;
+    width: auto;
+  }
+  
+  .img-portada-content {
+    width: 100%;
+  }
+
+  .content-info-cards {
+    width: 100%;
+    padding-bottom: 10px;
+    align-items: center;
+  }
+
+  /*loading-content*/
+  .loading {
+    flex-direction: column-reverse;
+  }
+
+  .content-details {
+    width: 100%;
+    min-height: 100vh;
+    border-radius: 0px;
+    padding: 15px;
+    overflow-y: scroll;
+  }
+
+  .content-img-info {
+    flex-direction: column;
+  }
+
+  .content-img {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .content-img img {
+    width: 315px;
+  }
+
+  .img-portadas {
+    object-fit: contain;
+    border-radius: 0;
+  }
+
+  .content-info-primary {
+    width: 100%;
+  }
+
+  .marca-cards {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .content-info-btn {
+    flex-direction: column-reverse;
+  }
+
+  .content-info-primary .content-info .marca-modelo {
+    align-items: center;
+  }
+
+  .content-info-primary .content-info {
+    flex-direction: column;
+  }
+
+  .content-btn {
+    width: 100%;
+  }
+}

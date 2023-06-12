@@ -1,0 +1,30 @@
+.header-filter {
+  display: grid;
+  place-content: center;
+  ul {
+    display: flex;
+    margin: 10px;
+    li {
+      list-style: none;
+      a {
+        padding: 10px 20px;
+        text-decoration: none; 
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header-filter {
+    ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        margin-top: 10px;
+      }
+    }
+  }
+}

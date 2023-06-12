@@ -1,0 +1,21 @@
+.content-paginacion {
+  width: 100%;
+  padding: 20px;
+}
+
+.page-navigation {
+  width: 100%;
+}
+
+.page-button {
+  border-radius: 5px;
+  background: none;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform .3s ease;
+}
+
+.page-button:hover {
+  transform: scaleX(1.1) scaleY(1.1);
+}
